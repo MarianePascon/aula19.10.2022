@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Inria sans';
+    background-color: #f5e9d9;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho div {
+    margin: 10px;
+}
+
+.menu1 {
+    width: 41px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #0468BF;
+    width: 100%;
+}
+
+.menu li {
+    padding-left: 30px;
+}
+
+.menu li a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.banner img {
+    border-radius: 10px;
+    width: 70%;
+}
+
+.servicos {
+    background-color: #F29F05;
+    border-radius: 10px;
+    margin-top: 55px;
+}
+
+.servicos h1 {
+    background-color: #0477BF;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 3%;
+    color: white;
+}
+
+.servi {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.servi div img {
+    width: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-top: 45px;
+}
+
+.container div {
+    background-color: #0477BF;
+    padding: 34px;
+    border-radius: 10px;
+    color: white;
+}
+
+.noticias h2 {
+    color: #F26A4B;
+    padding-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.noticias ul {
+    list-style: none;
+    font-family: 'Inria Serif';
+    padding-right: 39px;
+}
+
+.noticias ul li a {
+    margin: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.noticias button {
+    border: none;
+    background-color: #F29F05;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    margin: 15px;
+    padding: 3px;
+    height: 25px;
+}
+
+.noticias button a {
+    text-decoration: none;
+}
+
+.acessibilidade h3 {
+    color: #F26A4B;
+    padding-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.acessibilidade button {
+    border: none;
+    background-color: #F29F05;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    margin: 15px;
+    padding: 3px;
+    height: 25px;
+}
+
+.acessibilidade button a {
+    text-decoration: none;
+}
+
+.acessibilidade p {
+    font-size: 18px;
+    font-family: 'Inria Serif';
+    padding-right: 39px;
+}
+
+.jornal h4 {
+    color: #F26A4B;
+    font-size: 30px;
+    text-align: center;
+}
+
+.jornal img {
+    width: 130px;
+    margin-left: 61px;
+
+}
+
+.busca {
+    background-color: #0477BF;
+    margin-top: 40px;
+    width: 100%;
+    height: 300px;
+}
+
+.busca h5 {
+    color: #F26A4B;
+    font-size: 30px;
+    text-align: center;
+}
+
+.busca input {
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #F26A4B;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.botao button {
+    background-color: #F29F05;
+    width: 100px;
+    border: none;
+    height: 25px;
+}
+
+.caixa {
+    display: flex;
+    justify-content: space-around;
+}
+
+.colaboracao {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    height: 300px;
+    flex-wrap: wrap;
+}
+
+.colaboracao h1 {
+    font-size: 40px;
+}
+
+.colaboracao p {
+    font-size: 18px;
+}
+
+.colaboracao button {
+    background-color: #F29F05;
+    border: none;
+    color: black;
+    height: 25px;
+}
+
+.colaboracao a {
+    text-decoration: none;
+}
+
+.rodape footer {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    height: 300px;
+    background-color: #0477BF;
+    color: white;
+}
+
+.direita1 button {
+    background-color: #F29F05;
+    border: none;
+    height: 25px;
+    margin-left: 15px;
+}
+
+.direita1 button a {
+    text-decoration: none;
+}
+
+.direita1 img {
+    margin-bottom: -15px;
+    margin-top: 15px;
+}
+
+hr {
+    width: 570px;
+    margin-top: 45px;
+}
